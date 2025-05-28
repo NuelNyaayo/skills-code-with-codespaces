@@ -6,6 +6,9 @@
 
   "remoteUser": "codespace",
   "overrideCommand": false,
+
+  "postCreateCommand": "echo 'Container created!'",
+
  // Add the IDs of extensions you want installed when the container is created.
  "customizations": {
      "vscode": {
